@@ -1,0 +1,42 @@
+body {
+  font-family: Poppins, "sans-serif";
+  letter-spacing: 0.03em;
+  //   background-image: radial-gradient(
+  //     24.95% 24.95% at 45.9% 46.39%,
+  //     #ffffff 0%,
+  //     #00b9de 20.1%,
+  //     #0085c2 39.9%,
+  //     rgba(0, 104, 154, 0.39) 68.02%,
+  //     rgba(0, 83, 123, 0) 100%
+  //   );
+  background-color: #141e55;
+
+  color: #192a32;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+// section {
+
+// }

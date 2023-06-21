@@ -1,0 +1,116 @@
+.header {
+  background: #192a32;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 14.5px 32px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 128%;
+  color: #ffffff;
+  background-color: #141e55;
+  text-decoration: none;
+}
+
+.site-nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-nav__item {
+  display: flex;
+  align-items: center;
+  margin-right: 21px;
+  border-radius: 16px;
+  height: 48px;
+
+  background-color: #1a3769;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.site-nav__link {
+  display: flex;
+  align-items: center;
+  padding: 14px 24px;
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 128%;
+  color: #fcfcfc;
+}
+
+.site-nav__icon {
+  fill: #ffffff;
+  margin-right: 10px;
+}
+
+.language-btn {
+  padding: 14px 24px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  border: none;
+  height: 48px;
+  color: #ffffff;
+  background-color: #1a3769;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 128%;
+}
+
+.language-btn__icon {
+  margin-left: 9px;
+}
+
+.registration__list {
+  display: flex;
+  align-items: center;
+}
+
+.registration__item {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.registration__btn {
+  padding: 14px 32px;
+  border: none;
+  border-radius: 16px;
+  color: #fcfcfc;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 128%;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  &--register {
+    background-color: #ec622b;
+  }
+
+  &--login {
+    background-color: #0fa810;
+  }
+}

@@ -1,0 +1,144 @@
+.bonus-section {
+  display: flex;
+  margin-top: 10px;
+}
+
+.bonus-section__block {
+  position: relative;
+  width: 925px;
+  height: 384px;
+  padding: 90px 0 90px 20px;
+  margin-bottom: 20px;
+
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.bonus-section__background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 6px;
+}
+
+.bonus-section__stopSign-img {
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  z-index: 5;
+}
+
+.bonus-section__cards-img {
+  position: absolute;
+  top: 25px;
+  right: 5px;
+  z-index: 10;
+}
+
+.bonus-section__title {
+  position: relative;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  color: #192a32;
+  margin-bottom: 16px;
+}
+
+.bonus-section__text {
+  position: relative;
+  width: 496px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #192a32;
+  margin-bottom: 16px;
+}
+
+.bonus-section__btn {
+  position: relative;
+  width: 214px;
+  background: #ec622b;
+  border: 1px solid #ffffff;
+
+  box-shadow: 0px 4px 18px rgba(14, 24, 17, 0.25);
+  border-radius: 16px;
+  padding: 14px 30px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 128%;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  color: #fcfcfc;
+}
+
+.additional-bonusInfo__block {
+  width: 925px;
+  height: 234px;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 32px 20px;
+  margin-bottom: 20px;
+}
+
+.additional-bonusInfo__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-transform: uppercase;
+
+  color: #192a32;
+  margin-bottom: 16px;
+}
+
+.additional-bonusInfo__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+
+  color: #192a32;
+}
+
+.aside-casino {
+  width: 295px;
+  height: 510px;
+  background: #ffffff;
+  border-radius: 6px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.aside-casino__header {
+  width: 295px;
+  height: 60px;
+  background: #192a32;
+  border-radius: 6px 6px 0 0;
+}
+
+.aside-casino__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+
+  color: #fcfcfc;
+}
+
+.aside-casino__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 20px 20px 25px;
+  margin-top: 20px;
+}
+
+.aside-casino__item {
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  &:nth-child(even) {
+    margin-right: 0;
+  }
+}

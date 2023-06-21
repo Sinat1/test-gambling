@@ -235,8 +235,8 @@ img {
   padding: 41px 0 52px 20px;
   width: 925px;
   height: 384px;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(20, 30, 85, 0.6)), to(rgba(20, 30, 85, 0.6))), url(../../images/hero-section-background-1.jpeg);
-  background: linear-gradient(0deg, rgba(20, 30, 85, 0.6), rgba(20, 30, 85, 0.6)), url(../../images/hero-section-background-1.jpeg);
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(20, 30, 85, 0.6)), to(rgba(20, 30, 85, 0.6))), url("../../images/hero-section-background.webp");
+  background: linear-gradient(0deg, rgba(20, 30, 85, 0.6), rgba(20, 30, 85, 0.6)), url("../../images/hero-section-background.webp");
   border-radius: 6px;
 }
 
